@@ -176,6 +176,7 @@ main = ->
         hurt: ["assets/sfx_hit.mp3"]
         fall: ["assets/sfx_die.mp3"]
         swoosh: ["assets/sfx_swooshing.mp3"]
+        fall: ["assets/gta.mp3"]
 
     Object.keys(assets).forEach (type) ->
       Object.keys(assets[type]).forEach (id) ->
