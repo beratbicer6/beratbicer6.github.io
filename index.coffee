@@ -282,6 +282,7 @@ main = ->
     scoreSnd = game.add.audio("score")
     hurtSnd = game.add.audio("hurt")
     fallSnd = game.add.audio("fall")
+    fallSnd = game.add.audio("fall2")
     swooshSnd = game.add.audio("swoosh")
 
     # Add controls
