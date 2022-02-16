@@ -6,7 +6,7 @@ SPAWN_RATE = 1 / 1200
 OPENING = 100
 SCALE = 1
 
-HEIGHT = 300
+HEIGHT = 3
 WIDTH = 288
 GAME_HEIGHT = 336
 GROUND_HEIGHT = 64
@@ -294,7 +294,7 @@ main = ->
 
   reset = ->
     gameStarted = false
-    gameOver = false
+    gameOver = true
     score = 0
     # credits.renderable = true
     # credits.setText "see console log\nfor github url"
